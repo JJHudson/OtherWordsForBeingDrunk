@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: 'HoneyScriptLight';
+    src: url('fonts/honeyscript-light.eot');
+    src: url('fonts/honeyscript-light.eot') format('embedded-opentype'),
+         url('fonts/honeyscript-light.woff') format('woff'),
+         url('fonts/honeyscript-light.ttf') format('truetype'),
+         url('fonts/honeyscript-light.svg#HoneyScriptLight') format('svg');
+}
+
+@font-face {
+    font-family: 'PlustoSans';
+    src: url('fonts/plutosansmedium.eot');
+    src: url('fonts/plutosansmedium.eot') format('embedded-opentype'),
+         url('fonts/plutosansmedium.woff') format('woff'),
+         url('fonts/plutosansmedium.ttf') format('truetype'),
+         url('fonts/plutosansmedium.svg#plutosansmedium') format('svg');
+}
+
+body{
+	font: 800 40px 'PlustoSans', helvetica, arial, sans-serif;
+	overflow: hidden;
+	}	
+
+	#container{ 
+		display: table;  
+		height:100%; 
+		position:absolute;
+	   	width:100%;
+		}
+
+		#container #copy {
+			color: #fff;
+			display: table-cell;
+			font: 60px 'HoneyScriptLight','PlustoSans', Arial, Sans-serif;
+			text-align:center;
+	    	vertical-align: middle;
+	    	text-transform: capitalize;
+			}
+			
+			#container #copy #term{
+				cursor: pointer;
+				}
+			
+				#container #copy #term span{
+					display: block;
+					font: 150px 'PlustoSans', Arial, Sans-serif;
+					letter-spacing: 6px;
+					line-height: 1em;
+					margin: 18px 0 0 0;
+					text-transform: uppercase;
+					}
+
+		#container #line {
+			background: #fff;
+			cursor: pointer;
+			height: 1px;
+			margin: 40px auto 70px auto;
+			width: 260px;
+			}
+				
+		#container .banner{
+			background: #fff;
+			display: block;
+			font: 28px 'Coda', Arial, Sans-Serif;
+			height: 90px;
+			letter-spacing: 2px;
+			line-height: 90px;
+			margin: 0 auto;
+			max-width: 728px;
+			width: 90%;
+		    }	
+
+		    #container .banner a{
+		    	display: block;
+		    	height: 100%;
+		    	position: relative;
+		    	width: 100%;
+		    }
+		
+				#container .banner a .frame{
+					background: #fff;
+					display: block;
+					color: #333;
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+
+				#container .banner a .frame0{
+					opacity: 1;
+				}
+
+				#container .banner a .frame2{
+					font-size: 16px;
+				}
+
+
+
+

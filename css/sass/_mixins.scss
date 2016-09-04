@@ -1,0 +1,35 @@
+
+// VARIABLES
+
+	$numberOfBackgrounds: 22;
+	$white: #FFFFFF;
+
+
+
+// MIXINS
+
+	@mixin prefix($property, $value, $prefixes: ()) {
+	  
+		@each $prefix in $prefixes {
+			
+			#{'-' + $prefix + '-' + $property}: $value;
+
+		}
+	 
+		#{$property}: $value;
+
+	}
+
+	@mixin setBackground() {
+
+	  @for $i from 1 through $numberOfBackgrounds {
+	   
+			&[data-bg="#{$i}"] {
+
+				background-image: url('../img/bg/#{$i}.jpg');
+
+			}
+	   
+		}
+
+	}

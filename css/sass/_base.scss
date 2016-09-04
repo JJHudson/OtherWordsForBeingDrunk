@@ -1,0 +1,58 @@
+body{
+	overflow: hidden;
+}	
+
+.container{ 
+	@include setBackground();
+	@include prefix(background-size, cover, webkit moz o ms);
+
+	background-position: center center;
+	display: block;  
+	height: 100%; 
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+
+.copy {
+	@include prefix(transform, translateY(-50%), webkit moz o ms);
+
+	color: $white;
+	display: block;
+	font-family: 'HoneyScriptLight','PlustoSans', Arial, Sans-serif;
+	font-size: 5.5vw;
+	position: relative;
+	text-align:center;
+	text-transform: capitalize;
+	top: 50%;
+
+	@include media('<tablet') {
+		font-size: 11vw;
+	}
+}
+
+.copy__term{
+	cursor: pointer;
+
+	span{
+		display: block;
+		font-family: 'PlustoSans', Arial, Sans-serif;
+		font-size: 10vw;
+		letter-spacing: 6px;
+		line-height: 1em;
+		margin: 18px 0 0 0;
+		text-transform: uppercase;
+
+		@include media('<tablet') {
+			font-size: 11vw;
+		}
+	}
+}
+
+.copy__line {
+	background: $white;
+	cursor: pointer;
+	height: 1px;
+	margin: 40px auto 70px auto;
+	width: 260px;
+}

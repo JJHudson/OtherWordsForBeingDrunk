@@ -17,5 +17,5 @@ For those times when your just not sure of the words that can truly describe you
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. In other words, do what you want with this.
 

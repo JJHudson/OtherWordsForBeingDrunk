@@ -2,6 +2,8 @@
 
 For those times when your just not sure of the words that can truly describe your weekend!
 
+[OtherWordsForBeingDrunk.com](https://otherwordsforbeingdrunk.com/)
+
 ## Built With
 
 * SASS
